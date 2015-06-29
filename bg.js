@@ -9,7 +9,7 @@ chrome.windows.onCreated.addListener(function(window) {
 function tabOpen(what,val){
 	var remove_id = val.id;
 	var no_tabs = localStorage["no_tabs"]; //from settings
-	chrome.tabs.query({currentWindow:true, pinned:false, url: ["https://*/*", "http://*/*", "file:///*"]}, function(tabs) {
+	chrome.tabs.query({currentWindow:true, pinned:false, url: ["https://*/*", "http://*/*", "file:///*", "ftp://*"]}, function(tabs) {
 		var no_of_opentabs = tabs.length;
 		no_of_opentabs = no_of_opentabs;
 		if(no_of_opentabs > no_tabs){

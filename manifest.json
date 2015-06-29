@@ -8,7 +8,7 @@
       "default_popup": "options.html",
       "default_title": "Mono-tasking tabs"
    },
-   "description": "Improve ypur productivity by limiting number of tabs you can open.",
+   "description": "Improve your productivity by limiting number of tabs you can open.",
    "icons": {
       "128": "icon128.png",
       "16": "icon16.png",
@@ -20,5 +20,5 @@
    "options_page": "options.html",
    "permissions": [ "tabs" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.8"
+   "version": "1.8.1"
 }
