@@ -1,7 +1,7 @@
 # Mono-tasking-Tabs
 ## Google Chrome procrastination prevention extension
 
-Limit number of tabs that can be opened in a single window, limit. Number of tabs is limited to 3 by default (excluding pinned tabs). Settings can be changed in Extensions > Single tasking tabs > Options or via Popup. 
+Limit number of tabs that can be opened in a single window, limit number of windows open at one time. Number of tabs is limited to 3 by default (excluding pinned tabs). Settings can be changed in Extensions > Single tasking tabs > Options or via Popup. 
 
 __Does this take into account pinned tabs?__ 
 
