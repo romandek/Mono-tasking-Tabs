@@ -1,0 +1,24 @@
+{
+   "author": "Go-ERP developers",
+   "background": {
+      "persistent": false,
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_popup": "options.html",
+      "default_title": "Mono-tasking tabs"
+   },
+   "description": "Improve ypur productivity by limiting number of tabs you can open.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA60duMzoRMhXpPMXKpCbophClgUIaLUXwwtcY8p4dNDWN0G2vf6pDN4ssXVOC4AsR9gqJvCrcahMY6/hXYw67lwEwCHyMDpTnFgsos2f5wc6aR48YYQRjxSTvnzjrTeMKoE3SCMB/jSWi9oslf9xKp2IiJG6AcFbi86AZMa8GDsVbisZZSAtuAZll3Epz4h3oCMrSwSHwrYsQFl9HpklJCGlfXIEocNtmuxMHQe8oWabrB34aG35pg0sMtBrpsfB7oFPnzpI7w6ia2/ujzaiU0lrdsx8Og1Y0CSgESHUi9/Jz0Cbwi6AvHWK1Q0C7pY1rdGE13rrrNjvkjTJhu1WqcQIDAQAB",
+   "manifest_version": 2,
+   "name": "Mono-tasking tabs",
+   "options_page": "options.html",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8"
+}
