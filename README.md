@@ -13,4 +13,4 @@ No. The extension does not count the incognito windows?
 
 __Does this take into account `*chrome://*`, `*file:///*` and other none `*http://*` URLs?__
 
-This extension only works on tabs with URLs that match the following patterns: `https://*/*`, `http://*/*`, `file:///*`, `ftp://*`.
+This extension only works on tabs with URLs that match the following patterns: `https://*/*`, `http://*/*`.
