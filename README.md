@@ -9,8 +9,8 @@ No. Pinned tabs are not taken into account.
 
 __Does this take into account the incognito windows?__
 
-No. The extension does not count the incognito windows? 
+No. The extension does not count the incognito windows.
 
 __Does this take into account `*chrome://*`, `*file:///*` and other none `*http://*` URLs?__
 
-This extension only works on tabs with URLs that match the following patterns: `https://*/*`, `http://*/*`.
+No. All URIs ar treated as equal.
