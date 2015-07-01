@@ -18,7 +18,7 @@
    "manifest_version": 2,
    "name": "Mono-tasking tabs",
    "options_page": "options.html",
-   "permissions": [ "tabs" ],
+   "permissions": ["tabs"],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.8.5"
+   "version": "1.8.6"
 }
