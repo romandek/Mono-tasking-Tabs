@@ -18,7 +18,7 @@ function tabOpen(tab){
 		for(i=0;i<tabs.length;i++)
 		{
 			url = tabs[i].url;
-			if (url.match("^(http:\/+\/+)") || url.match("^(https:\/+\/+)"))
+			if (url.match("^(http:\/+\/+)") || url.match("^(https:\/+\/+)") || url.match("^(chrome:\/\/newtab)"))
 			{
 				no_of_opentabs++;
 			}
