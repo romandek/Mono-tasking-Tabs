@@ -13,4 +13,4 @@ No. The extension does not count the incognito windows.
 
 __Does this take into account `*chrome://*`, `*file:///*` and other none `*http://*` URLs?__
 
-No. All URIs ar treated as equal.
+Yes. Only URIs that match `*http://*` and `*https://*`, `*chrome://newtab*` patterns are blocked; 
